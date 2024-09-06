@@ -1,0 +1,90 @@
+/*COLORS*/
+/*aqua: rgb(167, 219, 222)*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #476A6F;
+}
+
+#container {
+    margin: 0 auto;
+/*impossibile centrare senza dare una dimensione al container*/
+    max-width: 540px;
+}
+
+.panel {
+    padding: 16px;
+    background-color: rgb(167, 219, 222);
+    margin-top: 16px;
+}
+
+header {
+}
+
+h1 {
+    display: inline-block;
+}
+
+.translation {
+    color: grey;
+    background-color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.translation-result {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.translation-text {
+    font-size: 32px;
+}
+
+.translation-flag {
+    position: absolute;
+    font-size: 32px;
+}
+
+.panel, img {
+    border-radius: 16px;
+    /*copypaste*/
+    
+}
+
+.buttons, input {
+    margin: 5px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 32px;
+    border-radius: 16px;
+    background-color: rgb(93, 145, 143);
+}
+
+input {
+	font-size: 16px;
+	padding: 16px;
+	border-radius: 8px;
+	border: none;
+	flex-grow: 1;
+
+    font-family: ;
+}
+
+header, .controls {
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    gap: 16px;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="traduttore.css">
+        <!--Font-->
+
+
+        <title></title>
+    </head>
+    <body>
+        <div id="container">
+
+        <header class="panel">
+            <h1>Traduttore</h1>
+            <span>Made by Luce_</span>
+        </header>
+    
+        <main>
+
+            <!--SCHERMO TRADUZIONE-->
+            <section class="panel translation">
+                <div class="translation-flag"><img width="35" height="35" src="https://img.icons8.com/stickers/35/brazil.png" alt="brazil"/></div>
+                <div class="translation-result">
+                    <p class="translation-text">Traduzione</p>
+                </div>
+            </section>
+
+            <section class="panel controls">
+
+                <!--CASELLA DI TESTO-->
+                <input class="text-input" type="text" placeholder="Testo da tradurre">
+                
+                <!--Pulsanti-->
+                    <!--Brazilian Portuguese-->
+                    <button data-iso="pt-br" class="lang-button">
+                        <img width="35" height="35" src="img/brazil.png" alt="brazil"/>
+                    </button>
+                    <!--Spanish-->
+                    <button data-iso="es" class="lang-button">
+                        <img width="35" height="35" src="img/spain-2.png" alt="spain-2"/>
+                    </button>
+                    <!--English-->
+                    <button data-iso="en"class="lang-button">
+                        <img width="35" height="35" src="img/great-britain.png" alt="great-britain"/>
+                    </button>
+                    <!--Romanian-->
+                    <button data-iso="ro" class="lang-button">
+                        <img width="35" height="35" src="img/romania.png" alt="romania"/>
+                    </button>
+            </section>
+        </main>
+        </div> 
+
+        <!-- Javascript -->
+        <script src="traduttore.js"></script>
+    </body>
+</html>
